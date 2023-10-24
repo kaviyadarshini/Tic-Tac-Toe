@@ -1,0 +1,30 @@
+body{
+  user-select:none;
+}
+
+main {
+  border: 2px dashed rgb(33, 33, 33);
+  padding: 40px 0px;
+  border-radius: 10px;
+}
+
+h1{
+	font-weight: 900;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.cell {
+  width: 87px;
+  height: 87px;
+  font-size: 3.5rem;
+  font-weight: 700;
+  background: #0080ff;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  text-align: center;
+}
